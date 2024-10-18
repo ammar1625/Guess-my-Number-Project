@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess My Number</title>
+    <link href="Style.css" rel="stylesheet"> 
+</head>
+<body>
+    <!--the header section-->
+    <div class="header">
+        <button class="again">Again!</button>
+        <span class="range">&lt;Between 1 and 20 &gt;</span>
+    </div>
+    
+    <!--the body section-->
+    <div class="body">
+      <h1 class="title">Guess My Number !</h1>
+      <div class="output"><p class="result">&#63;</p> </div>
+    </div>
+    <!--the footer section-->
+    <div class="footer">
+         
+    <!--the number input and check button container-->
+        <div class="inputs-div">
+
+            <input type="number" class="number-input">
+            <button class="check">Check</button>
+
+        </div>
+
+        <!--the score div-->
+        <div class="score-div">
+            <h2 >Your Guess is &#58; <span class="player-choice">?</span>  </h2>
+            <h2 class="label"><img class="status-icon" src="/icons/win.png"> <span class="label-status">Start Guessing...</span></h2>
+            <h2 class="score"> <img class="score-icon" src="/icons/score.png"> Score &#58; <span class="score-value">20</span> </h2>
+            <h2 class="high-score"> <img class="high-score-icon" src="/icons/highscore.png"> HighScore &#58; <span class="high-score-value">0</span> </h2>
+
+        </div>
+
+    </div>
+    
+
+  <script src="Scripts.js"></script>
+</body>
+</html>

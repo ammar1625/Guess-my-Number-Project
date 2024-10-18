@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*styling the whole body*/
+body
+{
+    background-color: rgb(43, 42, 42);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: cursive;
+}
+
+
+
+/*styling the header section*/
+.header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: top;
+    padding: 15px 20px;
+   
+}
+
+/*styling again button*/
+.again
+{
+    padding: 7px 25px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/*styliong range label*/
+.range
+{
+    font-size:16px ;
+    color: white;
+}
+
+
+
+/*the body section*/
+.body
+{
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+/*styling the title*/
+.title
+{
+    font-size: 38px;
+    color: white;
+}
+
+/*styling the output div*/
+.output
+{
+    height: 80px;
+    width: 180px;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+     
+}
+
+/*styling the result p*/
+.result
+{
+    color: black;
+    font-size: 35px;
+    font-weight: 700;
+    position: relative;
+}
+
+/*adding vertical line to the result*/
+.output::before
+{
+    position: absolute;
+    content: "";
+    height: 5px;
+    width: 100%;
+    top: 100;
+    left: 100;
+    background-color: white;
+}
+
+/*styling the footer section*/
+.footer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*styling the inputs div*/
+.inputs-div
+{
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*styling the number input*/
+.number-input
+{
+    width: 150px;
+    height: 70px;
+    background-color: rgb(43, 42, 42);
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+
+    border: 3px solid rgb(115, 115, 245);
+    padding: 0px 5px;
+
+}
+
+/*styling check button*/
+.check
+{
+    padding: 7px 25px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/*styling the score summery div*/
+.score-div
+{
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+/*styling the status icon*/
+.status-icon
+{
+    height: 32px;
+    width: 32px;
+    visibility: hidden;
+}
